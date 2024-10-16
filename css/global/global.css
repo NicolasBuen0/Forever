@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+    background: url("../../img/textura.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+
+
+ 
+}
+
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+
+    z-index: 5000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+
+/* 7 Adicione o CSS Essencial abaixo */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+}
+
+
+

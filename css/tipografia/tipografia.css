@@ -1,0 +1,45 @@
+.font-1 {
+    font: 1rem "Quicksand", serif !important;
+    
+}
+.font-1-p {
+    font:0.8rem 'Zen Antique', cursive;
+   
+ }
+ .font-1-m {
+    font:1rem 'Zen Antique', cursive;
+   
+ }
+
+ .font-2-l {
+    font: 0.9rem "Quicksand", serif !important;
+    letter-spacing: 0.4px;
+    
+}
+
+
+.font-2 {
+    font: 1rem "Playfair Display", serif !important;
+    
+}
+
+.font-2-m {
+    font: 0.7rem "Playfair Display", serif !important;
+
+}
+.font-nome{
+    font: 3rem "Marchanda", serif !important;
+    line-height: 0 !important;
+}
+
+@font-face {
+    font-family: Marchanda;
+    src: url("Marchanda.ttf");
+}
+
+/* @media(min-width:355px) {
+    .font-2 {
+        font: 3.9rem "HighSpirited", sans-serif;
+        background-color: red;
+    }
+} */

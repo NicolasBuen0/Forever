@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta property="og:image" content="https://convitecasamento.com.br/Crystiany&Joseph/img/logo.png">
+
+    <title id="title">Crystiany and Joseph</title>
+</head>
+
+<body>
+    <div class="falling-leaf-container">
+        <img src="img/folha.svg" class="falling-leaf" alt="Folha">
+    </div>
+
+    <div class="abrir" id="main-content">
+        <button id="language-toggle" data-lang="en">
+            <img src="img/translate.svg" alt="Idioma">
+        </button>
+        <img src="./img/flores.svg" class="logo_flores" data-anime="200">
+        <div class="container_envelope">  
+            <p class="casamentode font-2" data-anime="400">Please join us for<br> the wedding of </p>
+
+            <div class="nomes_container">
+                <p class="font-nome" data-anime="400">Crystiany and Joseph</p>
+            </div>
+
+            <a class="frase font-1-400 btn-js envelope-link" data-anime="800" href="CrystianyandJoseph.html" >
+                <img src="img/envelope.svg" class="envelope">
+              
+                <p class="toque font-nome " data-anime="400">    Tap to open </p>
+
+            
+            </a>
+
+            <p class="font-2 localidade" data-anime="900">
+                <span class="date">Sunday, November 10th,<BR> at four o'clock in the afternoon</span><br>
+                <span class="location">in Stoughton, Massachusetts</span>  
+            </p>
+
+            <ul class="one">
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=17814678124&text=Hello,%20attendance%20confirmed" target="_blank">
+                        <img src="img/whats.svg" class="icons">
+                        <p class="frase font-2-m"> Confirmation of<br> Attendance</p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="two-buttons">
+                <li>
+                    <a href="#" id="openModal" data-anime="1300">
+                        <img src="img/info.svg" class="icons">
+                        <p class="frase font-2-m" id="event-details-text">Event<br> Details</p> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://venmo.com/u/JosephSantaCruz-Baylon" target="_blank" data-anime="1500">
+                        <img src="img/presente.svg" class="icons">
+                        <p class="frase font-2-m" id="venmo-gift-text">Venmo <br> Gift</p>  
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+
+    <!-- Modal de Localização -->
+    <div id="locationModal" class="modal" style="display: none;">
+        <div class="scroll-indicator">
+            <p id="scroll">Scroll down</p>
+            <div class="arrow-down"></div>
+        </div>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="font-2" data-anime="300">
+                <span class="nomeabertura comochegar cerimonia" id="program">Wedding Program</span>
+                <span class="nomeabertura comochegar cerimoniaa" id="cerimon">Ceremony</span>
+            </p><br>
+            <p class="font-2-m" data-anime="300">
+                <span class="local programa" id="localiza">
+                    4:00 - Celebration Pastor Jason LaPlanche<br>
+                    5:00 - Wedding Vows<br>
+                    5:30 - Word of Thanks - Joseph and Crystiany<br>
+                    6:00 - Reception - Appetizers<br>
+                    7:00 - Dinner<br>
+                    8:00 - Bride and Groom Waltz<br>
+                </span>
+            </p>
+
+            <p class="font-2" data-anime="300">
+                <span class="nomeabertura comochegar cerimonia recepcao" id="cerimonialocation">Ceremony Location</span>
+            </p><br>
+            <p class="font-2-m local" data-anime="300" style="text-decoration: none !important; line-height: 1 !important;">
+                Venue Giubert Decor & Limo<br>
+                1515 West St, Stoughton - MA
+            </p>
+
+            <p class="font-2" data-anime="300">
+                <span class="nomeabertura comochegar cerimonia recepcao" style="padding: 0; padding-top: 20px;" id="drive">Driving directions:</span>
+            </p><br>
+
+            <div class="mapa">
+                <p class="font-2-m" data-anime="300">
+                    <span class="local"><a class="clique" href="https://waze.com/ul/hdrmrmwyx5" target="_blank" id="waze">Click here for Waze directions</a></span>
+                </p>
+                <p class="font-2-m" data-anime="300">
+                    <span class="local"><a class="clique" href="https://maps.app.goo.gl/wD9eiNHMYFAXjNzh7?g_st=com.google.maps.preview.copy" target="_blank" id="maps">Click here for Google Maps directions</a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="simple-anime.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
